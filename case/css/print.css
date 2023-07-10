@@ -1,0 +1,36 @@
+@charset "utf-8";
+
+/*--------------------------------------------------*/
+/* print.css
+----------------------------------------------------*/ 
+
+body{
+	background-color:#FFF;
+}
+
+#header_container,
+div.catetitle,
+#contents.case_detail div.doctor dl,
+#contents .print_detail,
+#contents.case_detail div.related,
+#side,
+#footer {
+	display:none;
+}
+
+#container,
+#container #maincontents {
+	width:auto;
+}
+
+#container #contents {
+	border:none;
+	margin:0 auto;
+	float:none;
+	padding:0;
+}
+
+#contents .copyright {
+	display:block;
+}
+

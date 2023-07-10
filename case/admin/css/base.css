@@ -1,0 +1,105 @@
+@charset "utf-8";
+
+/* base index --------------------------------------
+-base elements
+-font_size
+-link_color
+-bottom_margin,left_margin
+-clear
+-other
+----------------------------------------------------*/
+
+/*--------------------------------------------------*/
+/* base elements
+----------------------------------------------------*/
+body, p, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, form, input, table, tr, td, th { margin: 0px; padding: 0px; }
+h1, h2, h3, h4, h5, h6 { font-size:100%; font-weight:bold; }
+ul, ol, dl { list-style-type:none; }
+table, th, td, img { border:0px; }
+table { border-collapse:collapse; border-spacing:0; empty-cells:show; font-size:inherit; font:100%; }
+th, td { font-weight:normal; }
+img, a img { background:transparent; }
+caption, th { text-align:left; }
+address { font-style:normal; }
+hr { display:none; }
+
+/* font_size
+----------------------------------------------------*/
+body {
+	color:#444444; 
+ font:small 'ＭＳ Ｐゴシック', 'MS PGothic', 'ヒラギノ角ゴ Pro W3', 'Hiragino Kaku Gothic Pro', 'osaka', "Verdana", "Arial", "Helvetica", sans-serif;
+	*font-size:small;
+	*font:x-small;
+}
+
+
+.text09 { font-size:77%; }
+.text10 { font-size:85%; }
+.text11 { font-size:93%; }
+.text12 { font-size:100%; }
+.text13 { font-size:108%; }
+.text14 { font-size:116%; }
+.text15 { font-size:123.1%; }
+.text16 { font-size:131%; }
+.text17 { font-size:138.5%; }
+.text18 { font-size:146.5%; }
+.text19 { font-size:153.9%; }
+.text20 { font-size:161.6%; }
+.text21 { font-size:167%; }
+.text21 { font-size:174%; }
+.text23 { font-size:182%; }
+.text24 { font-size:189%; }
+.text25 { font-size:197%; }
+
+p, th, td, dt, dd, li { line-height:1.6; }
+
+/* link_color 
+----------------------------------------------------*/
+
+a:link { color:#666; text-decoration:none; }
+a:visited { color:#666; text-decoration:none; }
+a:hover { color:#666; text-decoration:underline; }
+a:active { color:#666; text-decoration:underline; }
+
+/* bottom_margin,left_margin
+----------------------------------------------------*/
+
+.b_m0 { margin-bottom:0 !important; }
+.b_m5 { margin-bottom:5px !important; }
+.b_m10 { margin-bottom:10px !important; }
+.b_m15 { margin-bottom:15px !important; }
+.b_m20 { margin-bottom:20px !important; }
+.b_m25 { margin-bottom:25px !important; }
+.b_m30 { margin-bottom:30px !important; }
+.b_m35 { margin-bottom:35px !important; }
+.b_m40 { margin-bottom:40px !important; }
+.b_m45 { margin-bottom:45px !important; }
+.b_m50 { margin-bottom:50px !important; }
+.b_m55 { margin-bottom:55px !important; }
+.b_m60 { margin-bottom:60px !important; }
+.m_none { margin:0 !important; }
+
+
+/* clear
+----------------------------------------------------*/
+.clearfix:after {
+ content:".";
+ display:block;
+	clear:both;
+	height:0;
+	visibility:hidden;
+	line-height: 0;
+	}
+.clearfix { display: inline-block; min-height: 1%; }
+
+/* Hides from IE-mac \*/
+* html .clearfix { height: 1%; }
+.clearfix { display:block; }
+/* End hide from IE-mac */
+
+
+
+/* other
+----------------------------------------------------*/
+.hidden { display:none; }
+
