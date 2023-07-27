@@ -1,10 +1,10 @@
-# Joysmile 症例紹介システム
+# System for Case Introduction Page
 
-[Joysmile 症例紹介システム](https://joysmile-kyousei.com/case/)はPHP+Smartyで作成されています。
+[The system for the case introduction page](https://joysmile-kyousei.com/case/) is built with PHP+Smarty.
 
 # Features
 
-動的コンテンツは以下となります。
+Dynamic content includes:
 
 ### Module
 - [MYDB.inc.php](https://github.com/whitekanegon/joysmile/blob/main/case/php_libs/module/MYDB.inc.php)
@@ -14,15 +14,15 @@
 - [index.php](https://github.com/whitekanegon/joysmile/blob/main/case/index.php)
 - [index.tpl](https://github.com/whitekanegon/joysmile/blob/main/case/php_libs/smarty/templates/index.tpl)
 
-### [Category(診断別)](https://joysmile-kyousei.com/case/shindan.php?id=1)
+### [Category(Diagnosis)](https://joysmile-kyousei.com/case/shindan.php?id=1)
 - [shindan.php](https://github.com/whitekanegon/joysmile/blob/main/case/shindan.php)
 - [shindan.tpl](https://github.com/whitekanegon/joysmile/blob/main/case/php_libs/smarty/templates/shindan.tpl)
 
-### [Category(年代別)](https://joysmile-kyousei.com/case/nendai.php?id=1)
+### [Category(Age Group)](https://joysmile-kyousei.com/case/nendai.php?id=1)
 - [nendai.php](https://github.com/whitekanegon/joysmile/blob/main/case/nendai.php)
 - [nendai.tpl](https://github.com/whitekanegon/joysmile/blob/main/case/php_libs/smarty/templates/nendai.tpl)
 
-### [Category(治療区分別)](https://joysmile-kyousei.com/case/kubun.php?id=1)
+### [Category(Treatment Type)](https://joysmile-kyousei.com/case/kubun.php?id=1)
 - [shindan.php](https://github.com/whitekanegon/joysmile/blob/main/case/kubun.php)
 - [shindan.tpl](https://github.com/whitekanegon/joysmile/blob/main/case/php_libs/smarty/templates/kubun.tpl)
 
